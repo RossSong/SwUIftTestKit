@@ -10,6 +10,16 @@
 		9196063D2109786600CC0F02 /* SwUIftTestKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 919606332109786500CC0F02 /* SwUIftTestKit.framework */; };
 		919606422109786600CC0F02 /* SwUIftTestKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919606412109786600CC0F02 /* SwUIftTestKitTests.swift */; };
 		919606442109786600CC0F02 /* SwUIftTestKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 919606362109786500CC0F02 /* SwUIftTestKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		919606552109794900CC0F02 /* UIButtonWrapperProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919606502109794800CC0F02 /* UIButtonWrapperProtocol.swift */; };
+		919606562109794900CC0F02 /* UIImageViewWrapperProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919606512109794800CC0F02 /* UIImageViewWrapperProtocol.swift */; };
+		919606572109794900CC0F02 /* UILabelWrapperProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919606522109794800CC0F02 /* UILabelWrapperProtocol.swift */; };
+		919606582109794900CC0F02 /* UIViewWrapperProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919606532109794900CC0F02 /* UIViewWrapperProtocol.swift */; };
+		919606592109794900CC0F02 /* UICollectionViewWrapperProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919606542109794900CC0F02 /* UICollectionViewWrapperProtocol.swift */; };
+		9196065F2109795800CC0F02 /* UILabelWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9196065A2109795800CC0F02 /* UILabelWrapper.swift */; };
+		919606602109795800CC0F02 /* UIViewWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9196065B2109795800CC0F02 /* UIViewWrapper.swift */; };
+		919606612109795800CC0F02 /* UIButtonWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9196065C2109795800CC0F02 /* UIButtonWrapper.swift */; };
+		919606622109795800CC0F02 /* UIImageViewWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9196065D2109795800CC0F02 /* UIImageViewWrapper.swift */; };
+		919606632109795800CC0F02 /* UICollectionViewWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9196065E2109795800CC0F02 /* UICollectionViewWrapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +39,16 @@
 		9196063C2109786600CC0F02 /* SwUIftTestKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwUIftTestKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		919606412109786600CC0F02 /* SwUIftTestKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwUIftTestKitTests.swift; sourceTree = "<group>"; };
 		919606432109786600CC0F02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		919606502109794800CC0F02 /* UIButtonWrapperProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonWrapperProtocol.swift; sourceTree = "<group>"; };
+		919606512109794800CC0F02 /* UIImageViewWrapperProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewWrapperProtocol.swift; sourceTree = "<group>"; };
+		919606522109794800CC0F02 /* UILabelWrapperProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabelWrapperProtocol.swift; sourceTree = "<group>"; };
+		919606532109794900CC0F02 /* UIViewWrapperProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewWrapperProtocol.swift; sourceTree = "<group>"; };
+		919606542109794900CC0F02 /* UICollectionViewWrapperProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionViewWrapperProtocol.swift; sourceTree = "<group>"; };
+		9196065A2109795800CC0F02 /* UILabelWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabelWrapper.swift; sourceTree = "<group>"; };
+		9196065B2109795800CC0F02 /* UIViewWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewWrapper.swift; sourceTree = "<group>"; };
+		9196065C2109795800CC0F02 /* UIButtonWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonWrapper.swift; sourceTree = "<group>"; };
+		9196065D2109795800CC0F02 /* UIImageViewWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewWrapper.swift; sourceTree = "<group>"; };
+		9196065E2109795800CC0F02 /* UICollectionViewWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionViewWrapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +91,8 @@
 		919606352109786500CC0F02 /* SwUIftTestKit */ = {
 			isa = PBXGroup;
 			children = (
+				9196064F210978BD00CC0F02 /* Protocol */,
+				9196064E210978B000CC0F02 /* UIWrapper */,
 				919606362109786500CC0F02 /* SwUIftTestKit.h */,
 				919606372109786500CC0F02 /* Info.plist */,
 			);
@@ -84,6 +106,30 @@
 				919606432109786600CC0F02 /* Info.plist */,
 			);
 			path = SwUIftTestKitTests;
+			sourceTree = "<group>";
+		};
+		9196064E210978B000CC0F02 /* UIWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				9196065C2109795800CC0F02 /* UIButtonWrapper.swift */,
+				9196065E2109795800CC0F02 /* UICollectionViewWrapper.swift */,
+				9196065D2109795800CC0F02 /* UIImageViewWrapper.swift */,
+				9196065A2109795800CC0F02 /* UILabelWrapper.swift */,
+				9196065B2109795800CC0F02 /* UIViewWrapper.swift */,
+			);
+			path = UIWrapper;
+			sourceTree = "<group>";
+		};
+		9196064F210978BD00CC0F02 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				919606502109794800CC0F02 /* UIButtonWrapperProtocol.swift */,
+				919606542109794900CC0F02 /* UICollectionViewWrapperProtocol.swift */,
+				919606512109794800CC0F02 /* UIImageViewWrapperProtocol.swift */,
+				919606522109794800CC0F02 /* UILabelWrapperProtocol.swift */,
+				919606532109794900CC0F02 /* UIViewWrapperProtocol.swift */,
+			);
+			path = Protocol;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +194,7 @@
 				TargetAttributes = {
 					919606322109786500CC0F02 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
 					};
 					9196063B2109786600CC0F02 = {
 						CreatedOnToolsVersion = 9.4.1;
@@ -194,6 +241,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				919606602109795800CC0F02 /* UIViewWrapper.swift in Sources */,
+				9196065F2109795800CC0F02 /* UILabelWrapper.swift in Sources */,
+				919606562109794900CC0F02 /* UIImageViewWrapperProtocol.swift in Sources */,
+				919606612109795800CC0F02 /* UIButtonWrapper.swift in Sources */,
+				919606572109794900CC0F02 /* UILabelWrapperProtocol.swift in Sources */,
+				919606582109794900CC0F02 /* UIViewWrapperProtocol.swift in Sources */,
+				919606592109794900CC0F02 /* UICollectionViewWrapperProtocol.swift in Sources */,
+				919606552109794900CC0F02 /* UIButtonWrapperProtocol.swift in Sources */,
+				919606632109795800CC0F02 /* UICollectionViewWrapper.swift in Sources */,
+				919606622109795800CC0F02 /* UIImageViewWrapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +396,7 @@
 		919606482109786600CC0F02 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -356,6 +414,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.wantedlab.SwUIftTestKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -364,6 +423,7 @@
 		919606492109786600CC0F02 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -389,6 +449,7 @@
 		9196064B2109786600CC0F02 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YEX9K6G97T;
 				INFOPLIST_FILE = SwUIftTestKitTests/Info.plist;
@@ -407,6 +468,7 @@
 		9196064C2109786600CC0F02 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YEX9K6G97T;
 				INFOPLIST_FILE = SwUIftTestKitTests/Info.plist;
