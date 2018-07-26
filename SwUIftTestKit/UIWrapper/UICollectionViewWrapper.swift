@@ -13,6 +13,10 @@ public class UICollectionViewWrapper: NSObject, UICollectionViewWrapperProtocol,
     private weak var dataSource: UICollectionViewWrapperDataSource?
     var collectionView: UICollectionView?
     
+    public override init() {
+        super.init()
+    }
+    
     public func setDelegate(_ delegate: UICollectionViewWrapperDelegate, collectionView: UICollectionView?) {
         self.delegate = delegate
         self.collectionView = collectionView

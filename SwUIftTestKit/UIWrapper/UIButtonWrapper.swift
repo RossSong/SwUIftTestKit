@@ -11,6 +11,10 @@ import Foundation
 public class UIButtonWrapper: UIButtonWrapperProtocol {
     var button: UIButton?
     
+    public init() {
+        
+    }
+    
     public func setButton(_ button: UIButton) {
         self.button = button
     }

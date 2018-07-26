@@ -11,6 +11,10 @@ import Foundation
 public class UILabelWrapper: UILabelWrapperProtocol {
     var label: UILabel?
     
+    public init() {
+        
+    }
+    
     public func setLabel(_ label: UILabel) {
         self.label = label
     }

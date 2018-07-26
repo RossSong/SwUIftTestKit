@@ -11,6 +11,10 @@ import Foundation
 public class UIViewWrapper: UIViewWrapperProtocol {
     var view: UIView?
     
+    public init() {
+        
+    }
+    
     public func setView(_ view: UIView) {
         self.view = view
     }

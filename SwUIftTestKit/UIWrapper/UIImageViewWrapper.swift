@@ -11,6 +11,10 @@ import Foundation
 public class UIImageViewWrapper: UIImageViewWrapperProtocol {
     var imageView: UIImageView?
     
+    public init() {
+        
+    }
+    
     public func setImageView(_ imageView: UIImageView?) {
         self.imageView = imageView
     }
