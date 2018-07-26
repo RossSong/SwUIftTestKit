@@ -15,7 +15,7 @@ public class UIButtonWrapper: UIButtonWrapperProtocol {
         
     }
     
-    public func setButton(_ button: UIButton) {
+    public func setButton(_ button: UIButton?) {
         self.button = button
     }
     

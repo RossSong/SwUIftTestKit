@@ -9,5 +9,5 @@
 import Foundation
 
 public protocol UIViewWrapperProtocol {
-    func setView(_ view: UIView)
+    func setView(_ view: UIView?)
 }

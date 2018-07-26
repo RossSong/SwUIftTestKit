@@ -9,7 +9,7 @@
 import Foundation
 
 public protocol UIButtonWrapperProtocol {
-    func setButton(_ button: UIButton)
+    func setButton(_ button: UIButton?)
     func setTitle(_ title: String?, for state: UIControlState)
     func getTitleLabelText() -> String?
     func addTarget(_ target: Any?, action: Selector, for controlEvents: UIControlEvents)

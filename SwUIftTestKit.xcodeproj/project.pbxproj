@@ -91,6 +91,7 @@
 		919606352109786500CC0F02 /* SwUIftTestKit */ = {
 			isa = PBXGroup;
 			children = (
+				919606982109A7C800CC0F02 /* Mock */,
 				9196064F210978BD00CC0F02 /* Protocol */,
 				9196064E210978B000CC0F02 /* UIWrapper */,
 				919606362109786500CC0F02 /* SwUIftTestKit.h */,
@@ -130,6 +131,13 @@
 				919606532109794900CC0F02 /* UIViewWrapperProtocol.swift */,
 			);
 			path = Protocol;
+			sourceTree = "<group>";
+		};
+		919606982109A7C800CC0F02 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mock;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

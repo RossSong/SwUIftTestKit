@@ -15,7 +15,7 @@ public class UIViewWrapper: UIViewWrapperProtocol {
         
     }
     
-    public func setView(_ view: UIView) {
+    public func setView(_ view: UIView?) {
         self.view = view
     }
 }

@@ -9,7 +9,7 @@
 import Foundation
 
 public protocol UILabelWrapperProtocol {
-    func setLabel(_ label: UILabel)
+    func setLabel(_ label: UILabel?)
     func setText(_ text: String?)
     func setAttributedText(_ atturibtedText: NSAttributedString)
     func setTextColor(_ textColor: UIColor?)

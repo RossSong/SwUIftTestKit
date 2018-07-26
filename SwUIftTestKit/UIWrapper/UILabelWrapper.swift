@@ -15,7 +15,7 @@ public class UILabelWrapper: UILabelWrapperProtocol {
         
     }
     
-    public func setLabel(_ label: UILabel) {
+    public func setLabel(_ label: UILabel?) {
         self.label = label
     }
     
