@@ -8,7 +8,7 @@
 
 import Foundation
 
-protocol UIImageViewWrapperProtocol {
+public protocol UIImageViewWrapperProtocol {
     func setImageView(_ imageView: UIImageView?)
     func setIsHidden(_ value: Bool)
     func setImage(_ image: UIImage?)

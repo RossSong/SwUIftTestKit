@@ -8,7 +8,7 @@
 
 import Foundation
 
-@objc protocol UICollectionViewWrapperFlowLayout: class {
+@objc public protocol UICollectionViewWrapperFlowLayout: class {
     @objc optional func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize
     @objc optional func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets
     @objc optional func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat
@@ -17,14 +17,14 @@ import Foundation
     @objc optional func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, referenceSizeForFooterInSection section: Int) -> CGSize
 }
 
-@objc protocol UICollectionViewWrapperDelegate {
+@objc public protocol UICollectionViewWrapperDelegate {
     @objc optional func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath)
     @objc optional func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, referenceSizeForHeaderInSection section: Int) -> CGSize
     @objc optional func collectionView(_ collectionView: UICollectionView, willDisplay cell: UICollectionViewCell, forItemAt indexPath: IndexPath)
     @objc optional func scrollViewDidScroll(_ scrollView: UIScrollView)
 }
 
-@objc protocol UICollectionViewWrapperDataSource {
+@objc public protocol UICollectionViewWrapperDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell
     
@@ -36,7 +36,7 @@ import Foundation
     @objc optional func collectionView(_ collectionView: UICollectionView, indexPathForIndexTitle title: String, at index: Int) -> IndexPath
 }
 
-protocol UICollectionViewWrapperProtocol {
+public protocol UICollectionViewWrapperProtocol {
     func setDelegate(_ delegate: UICollectionViewWrapperDelegate, collectionView: UICollectionView?)
     func setDataSource(_ dataSource: UICollectionViewWrapperDataSource)
     func register(_ nib: UINib?, forCellWithReuseIdentifier identifier: String)

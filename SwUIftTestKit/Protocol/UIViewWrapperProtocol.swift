@@ -8,6 +8,6 @@
 
 import Foundation
 
-protocol UIViewWrapperProtocol {
+public protocol UIViewWrapperProtocol {
     func setView(_ view: UIView)
 }

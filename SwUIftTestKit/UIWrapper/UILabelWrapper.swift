@@ -8,38 +8,38 @@
 
 import Foundation
 
-class UILabelWrapper: UILabelWrapperProtocol {
+public class UILabelWrapper: UILabelWrapperProtocol {
     var label: UILabel?
     
-    func setLabel(_ label: UILabel) {
+    public func setLabel(_ label: UILabel) {
         self.label = label
     }
     
-    func setText(_ text: String?) {
+    public func setText(_ text: String?) {
         self.label?.text = text
     }
     
-    func setAttributedText(_ atturibtedText: NSAttributedString) {
+   public  func setAttributedText(_ atturibtedText: NSAttributedString) {
         self.label?.attributedText = atturibtedText
     }
     
-    func setTextColor(_ textColor: UIColor?) {
+    public func setTextColor(_ textColor: UIColor?) {
         self.label?.textColor = textColor
     }
     
-    func setFont(_ font: UIFont?) {
+    public func setFont(_ font: UIFont?) {
         self.label?.font = font
     }
     
-    func getText() -> String? {
+    public func getText() -> String? {
         return self.label?.text
     }
     
-    func getTextColor() -> UIColor? {
+    public func getTextColor() -> UIColor? {
         return self.label?.textColor
     }
     
-    func getFont() -> UIFont? {
+    public func getFont() -> UIFont? {
         return self.label?.font
     }
 }

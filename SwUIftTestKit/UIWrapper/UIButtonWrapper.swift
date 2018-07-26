@@ -8,30 +8,30 @@
 
 import Foundation
 
-class UIButtonWrapper: UIButtonWrapperProtocol {
+public class UIButtonWrapper: UIButtonWrapperProtocol {
     var button: UIButton?
     
-    func setButton(_ button: UIButton) {
+    public func setButton(_ button: UIButton) {
         self.button = button
     }
     
-    func setTitle(_ title: String?, for state: UIControlState) {
+    public func setTitle(_ title: String?, for state: UIControlState) {
         self.button?.setTitle(title, for: .normal)
     }
     
-    func getTitleLabelText() -> String? {
+    public func getTitleLabelText() -> String? {
         return button?.titleLabel?.text
     }
     
-    func addTarget(_ target: Any?, action: Selector, for controlEvents: UIControlEvents) {
+    public func addTarget(_ target: Any?, action: Selector, for controlEvents: UIControlEvents) {
         self.button?.addTarget(target, action: action, for: controlEvents)
     }
     
-    func addTopBorderWithColor(_ color: UIColor, width: CGFloat) -> CALayer {
+    public func addTopBorderWithColor(_ color: UIColor, width: CGFloat) -> CALayer {
         return self.button!.layer
     }
     
-    func setTag(_ tag: Int) {
+    public func setTag(_ tag: Int) {
         self.button?.tag = tag
     }
 }

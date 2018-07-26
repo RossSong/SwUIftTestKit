@@ -8,18 +8,18 @@
 
 import Foundation
 
-class UIImageViewWrapper: UIImageViewWrapperProtocol {
+public class UIImageViewWrapper: UIImageViewWrapperProtocol {
     var imageView: UIImageView?
     
-    func setImageView(_ imageView: UIImageView?) {
+    public func setImageView(_ imageView: UIImageView?) {
         self.imageView = imageView
     }
     
-    func setIsHidden(_ value: Bool) {
+    public func setIsHidden(_ value: Bool) {
         self.imageView?.isHidden = value
     }
     
-    func setImage(_ image: UIImage?) {
+    public func setImage(_ image: UIImage?) {
         self.imageView?.image = image
     }
 }
